@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-аптека LIFE</title>
+    <link rel="icon" href="../sd/images/Life2.png" type="image/x-icon">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #212127;
+            color: #fff;
+            padding: 10px 0;
+            height: 60px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        .logo-holder {
+            float: left;
+            padding-left: 16px;
+        }
+
+        .logo-img {width: 40%;}
+
+        #main-menu {list-style: none;}
+
+        .main-menu-item {
+            display: inline-block;
+        }
+
+        .main-menu-item a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            background-color: #2012e4;
+            padding: 8px;
+            margin: 8px;
+            margin-top: -20px;
+            border-radius: 2px;
+            display: inline-block;
+        }
+
+        .main-menu-item a:hover {background-color: #1d80e9;}
+
+        .cover {
+            background: url(../sd/images/myf.jpg);
+            background-position: center;
+            background-size: cover;
+            color: #121caf;
+            padding: 100px 36%;
+            text-align: center;
+            font-style: oblique; 
+        }
+
+        .cover-dimmer {
+            background: rgba(0,0,0,0.5);
+            text-align: center;
+        }
+
+        .h1 {
+            font-size: 2rem;
+            margin-top: -8px;
+            margin-bottom: .25rem;
+            text-align: left;
+        }
+
+        .services {
+            width: 80%;
+            margin: auto;
+            padding-top: 4rem;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            padding-bottom: .5rem;
+            font-size: 3rem;
+        }
+
+        .subheader {
+            padding-bottom: 3rem;
+        }
+
+        .service {
+            float: left;
+            width: 27%;
+            border: solid 1px lightgrey;
+            margin: 1%;
+            padding: 2%;
+        }
+
+        .img-izmer {
+            width: 100%;
+        }
+
+        .img-oftol {
+            width: 100%;
+        }
+
+        .img-ortho {
+            width: 100%;
+        }
+
+        .serv-descr{
+            margin: .8rem 0;
+            text-align: left;
+        }
+
+        .button-service {
+            padding: .5rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #0091eb;
+            border: 0;
+            border-radius: 4px;
+            margin-top: .8rem;
+        }
+
+        .clearfloat {
+            background-color: grey;
+            /* height: 10px; */
+            clear: both;
+        }
+        
+        .moreinfo {
+            margin-top: 4rem;
+            margin-bottom: 5rem;
+            background-image: url(../sd/images/abstr.jpg);
+            background-size: cover;
+            background-position: 0 -120px;
+            color: white;
+        }
+
+        .dimmer {
+            padding: 3rem;
+            background-color: rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .form-holder {
+            width: 80%;
+            margin: auto;
+        }
+
+        .forma-text {
+            margin-left: 10%;
+            width: 40%;
+            text-align: right;
+            display: inline-block;
+        }
+
+        .forma {
+            width: 50%;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .forma input {
+            margin: 6px 0 6px 20px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 0;
+            border-radius: 4px;
+            width: 60%;
+        }
+
+        .btn {
+            width: 100px; 
+            height: 40px; 
+            background-color: #1d1ba1;
+            color: white;
+        }     
+        
+        .about-Us {
+            margin: 4rem 0;
+        }
+
+        .details {
+            width: 80%;
+            margin: auto;
+        }
+
+        .long-text {
+            line-height: 1.6rem;
+            margin-top: 1.6rem;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #212127;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .footer-table {
+            width: 80%;
+            margin: auto;
+            border: 0;
+        }
+
+        .footer-table td {
+            color: white;
+            border: 0;
+            width: 33%;
+            line-height: 1.6rem;
+            vertical-align: top;
+        }
+
+        .logo-bottom {width: 150px;}
+
+        .bigger {
+            font-size: 120%;
+            font-weight: bold;
+            font-family: arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo-holder">
+            <img src="images/Life.png" alt="LIFE"
+            class="logo-img">
+        </div>
+            <ul id="main-menu"> 
+                <li class="main-menu-item"><a href="index.html">Главная</a>
+                </li>
+                <li class="main-menu-item"><a href="index.html#service">Услуги</a>
+                </li>
+                <li class="main-menu-item"><a href="a2.html">Товары</a>
+                </li>
+                <li class="main-menu-item"><a href="index.html#about-Us">О нас</a>
+                </li>
+                <li class="main-menu-item"><a href="a4.html">Регистрация</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="cover">
+            <div class="cover-dimmer">
+                <h1>Мы заботимся о вашем здоровье!</h1>
+            </div>
+        </section>
+
+        <main>
+        <section id="service">
+            <section class="services">
+                <h2>К вашим услугам</h2>
+                <container class="container-a">
+                
+                    <div class="service">
+                        <h3>Измерение давления</h3>
+                        <img src="images/izmer.png" alt="Планирование" class="img-izmer">
+                        <p class="serv-descr">Артериальное давление необходимо держать под контролем. Здоровый человек измеряет его время от времени – когда чувствует недомогание. Чтобы контролировать свое состояние, нужно регулярно измерять давление. Сделать это вы можете в LIFE.</p>
+                        <div class="btn-holder">
+                            <a href="a6.html" class="button-service">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="service">
+                        <h3>Офтальмолог</h3>
+                        <img src="images/oftol.png" alt="Планирование" class="img-oftol">
+                        <p class="serv-descr">А вы знаете, что излучение от экранов смартфонов, компьютеров и телевизоров негативно влияет на зрение? Не стоит забывать и о возрастных изменениях, а также заболеваниях, которые не связаны напрямую с глазами, но ухудшают их состояние.</p>
+                        <div class="btn-holder">
+                            <a href="a7.html" class="button-service">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="service">
+                        <h3>Ортопедия</h3>
+                        <img src="images/ortho.png" alt="Планирование" class="img-ortho">
+                        <p class="serv-descr">Каждый день ноги подвергаются нагрузкам – не удивительно, что к вечеру они могут болеть. При отсутствии серьезных заболеваний костей и суставов проблему можно решить: вернуть ногам чувство легкости, убрать тяжесть и дискомфорт.</p>
+                        <div class="btn-holder">
+                            <a href="a8.html" class="button-service">Подробнее</a>
+                        </div>
+                    </div>
+        </container>
+    </section>
+        <div class="clearfloat"></div>
+
+        <section class="moreinfo">
+            <div class="dimmer">
+                <h2>Подпишись!</h2>
+                <p class="subheader">Получайте специальные предложения и новости от нас первыми!</p>
+                <div class="form-holder">
+                    <div class="forma-text">
+                        <h3>Подпишитесь на рассылку</h3>
+                        <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности</p>
+                    </div><div class="forma">
+                        <form action="">
+                            <input type="text" placeholder="Ваше имя">
+                            <br> 
+                            <input type="text" placeholder="Эл. почта">
+                            <br>
+                            <input type="submit" value="Подписаться" 
+                            class="btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-Us" id="about-Us">
+            <div class="details">
+                <h2>О нас</h2>
+                <p class="long-text">Добро пожаловать в LIFE - вашу персональную аптеку в виртуальном мире заботы о здоровье! 
+                    Мы - команда профессионалов, преданная обеспечению вашего благополучия и комфорта. 
+                    Наша цель - сделать доступ к лекарствам и медицинским средствам легким, удобным и безопасным для каждого.</p>
+                <p class="long-text">Что делает нашу аптеку особенной? Наше внимание к каждому клиенту. Мы стремимся к тому, 
+                    чтобы каждый ваш запрос был услышан и обработан с максимальной ответственностью. Мы предлагаем ассортимент продуктов 
+                    высокого качества, поддерживаемый надежными поставщиками и проверенными временем брендами.</p>
+                <p class="long-text">Наши услуги не ограничиваются просто продажей лекарств. Мы также предоставляем профессиональные 
+                    консультации по вопросам здоровья и лечения, помогая вам принимать осознанные решения в уходе за собой и своей семьей.</p>
+                <p class="long-text">Безопасность и конфиденциальность - это основополагающие принципы нашей работы. 
+                    Мы гарантируем безопасность ваших данных и личной информации, обеспечивая анонимность и надежность каждой транзакции.</p>    
+            </div>
+        </section>
+
+
+    </main>
+        <footer>
+            <table class="footer-table">
+                <tr>
+                    <td><img src="../sd/images/Life.png" alt="Life"
+                    class="logo-bottom">
+                    </td>
+
+                    <td><span class="bigger">Контакты</span><br>Телефон: +7 (777) 249-37-23<br>Email: info@apteka-life.kz<br>Адрес: г. Усть-Каменагорск, ул. Абая, д. 18</td>
+
+                </tr>
+            </table>
+        </footer>
+</body>
+</html>
