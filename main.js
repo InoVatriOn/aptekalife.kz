@@ -85,7 +85,7 @@ function addProductToCart(title, price, productImg) {
   var cartItemsNames = cartItems.getElementsByClassName("cart-product-title");
   for (var i = 0; i < cartItemsNames.length; i++) {
     if (cartItemsNames[i].innerText == title) {
-      alert("You have already add this item to cart");
+      alert("Вы уже добавили этот товар в корзину");
       return;
     }
   }
